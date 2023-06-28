@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+body{
+    background-color: rgb(255, 215, 15);
+    margin: 0px;
+    height: 900px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#home{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url("bg.png");
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.ttsstt{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+     -ms-animation: fadein 1s; /* Internet Explorer */
+      -o-animation: fadein 1s; /* Opera < 12.1 */
+         animation: fadein 1s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+#sm{
+    display: flex;
+    position: fixed;
+    right: -30px;
+    top: 40%;
+    height: 145px;
+    width: 50px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: black;
+    opacity: .5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#sm:hover{
+    right: 0px;
+    opacity: 1;
+}
+
+.smtext{
+    height: 100%;
+    margin: 45px 0px 0px -35px;
+}
+
+.smtext h1{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    rotate: -90deg;
+    display: inline-block;
+    white-space: nowrap;
+}
+.smicon{
+    display: inline-block;
+    height: 100%;
+    margin: 0px 0px 0px -30px;
+}
+.smicon a{
+    text-decoration: none;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.smicon a i{
+    margin: 8px 0px;
+}
+
+.homesec{
+    width: 750px;
+    height: 100%;
+    display: flex;
+    margin:auto;
+    place-content: center space-between;
+}
+.logodiv{
+    height: 10 0%;
+    width: 340px;
+    overflow-y: hidden;
+    display: block;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+#ist {
+    animation: bannermove 5s linear infinite;
+}
+
+@keyframes bannermove {
+0% {
+margin-top: 14.5px;
+}
+100% {
+margin-top: -2051.51px;
+}
+
+}
+
+
+.logodiv img{
+    width: 100%;
+    
+}
+
+.myinfo{
+    width: 353px;
+    height: 420px;
+    margin: auto 0px;
+}
+.dp{
+    height: 95px;
+    width: 95px;
+    border-radius: 50px;
+}
+.dp:hover {
+    animation: shake .3s;
+    
+  }
+  
+  @keyframes shake {
+    0% { transform:  rotate(0deg);  }
+    25% { transform:  rotate(-5deg); }
+    75% { transform:  rotate(10deg); }
+    100% { transform:  rotate(0deg); }
+
+  }
+
+.hello{
+    font-weight: 800;
+    font-size: 65px;
+    margin: 0px 0px 0px 0px;
+    line-height: 60px;
+}
+.daljeet{
+    width: min-content;
+    font-weight: 800;
+    font-size: 72px;
+    margin: 0px 0px 0px 0px;
+    line-height: 60px;
+    cursor: default;
+    transition: .3s;
+}
+.daljeet:hover{
+    color: rgb(255, 255, 255);
+}
+
+.myinfo p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    letter-spacing: .2px;
+}
+
+.myinfo button{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 64px;
+    width: 280px;
+    border: 0px;
+    transition: .3s;
+}
+.myinfo button:hover{
+    color: black;
+    background-color: white;
+}
+
+.contactfix{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    align-items: center;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+     -ms-animation: fadein 1s; /* Internet Explorer */
+      -o-animation: fadein 1s; /* Opera < 12.1 */
+         animation: fadein 1s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.contact{
+    width: 700px;
+    margin: 120px auto;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: saturate(180%) blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+}
+.backhead{
+    display: flex;
+    place-content: center space-between;
+    height: 50px;
+    padding-bottom: 60px;
+
+}
+#backbtn{
+    font-size: 30px;
+    background: none;
+    border: none;
+    font-weight: 500;
+    margin: auto 0px;
+    opacity: .8;
+    cursor: pointer;
+}
+#backbtn:hover{
+    opacity: 1;
+}
+.msghead{
+    font-size: 30px;
+    margin: auto 0px;
+}
+.formdiv{
+    width: 700px;
+    height: 350px;
+}
+
+form{
+    width: 100%;
+}
+
+.nameandmail{
+    display: flex;
+    width: 100%;
+    place-content: center space-between;
+    padding-bottom: 80px;
+}
+.name{
+    width: 45%;
+}
+.email{
+    width: 45%;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input{
+    width: 100%;
+    padding: 0px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-bottom:solid black 2px ;
+    background: none;
+    outline: none;
+    color: rgb(31, 31, 31);
+}
+textarea{
+    width: 100%;
+    padding: 0px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-bottom:solid black 2px ;
+    background: none;
+    outline: none;
+    resize: none;
+    color: rgb(31, 31, 31);
+}
+#send{
+    margin: 50px auto 0px 250px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 64px;
+    width: 200px;
+    border: 0px;
+    letter-spacing: 1px;
+    transition: .3s;
+
+}
+#send:hover{
+    color: black;
+    background-color: white;
+}
